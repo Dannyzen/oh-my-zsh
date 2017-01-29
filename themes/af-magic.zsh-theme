@@ -21,7 +21,7 @@ eval my_orange='$FG[214]'
 RPROMPT='$my_gray%n@%m:%!%@%{$reset_color%}'
 
 # git settings
-ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075](branch:"
+ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]($FG[078]"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="$my_orange*%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[075])%{$reset_color%}"
