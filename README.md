@@ -45,7 +45,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 ### Plugins
 
-Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
+Oh My Zsh comes with a shitload of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
 
 #### Enabling Plugins
 
@@ -79,9 +79,10 @@ To use a different theme, simply change the value to match the name of your desi
 
 ```shell
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
-# you might need to install a special Powerline font on your console's host for this to work
 # see https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#agnoster
 ```
+
+_Note: many themes require installing the [Powerline Fonts](https://github.com/powerline/fonts) in order to render properly._
 
 Open up a new terminal window and your prompt should look something like this:
 
@@ -96,6 +97,14 @@ If you're feeling feisty, you can let the computer select one randomly for you e
 ZSH_THEME="random" # (...please let it be pie... please be some pie..)
 ```
 
+And if you want to pick random theme from a list of your favorite themes:
+
+```shell
+ZSH_THEM_RANDOM_CANDIDATES=(
+  "robbyrussell"
+  "agnoster"
+)
+```
 
 ## Advanced Topics
 
