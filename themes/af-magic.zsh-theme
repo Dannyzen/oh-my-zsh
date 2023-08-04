@@ -26,11 +26,11 @@ ${FG[032]}%~\$(git_prompt_info)\$(hg_prompt_info) ${FG[105]}%(!.#.»)%{$reset_co
 PS2="%{$fg[red]%}\ %{$reset_color%}"
 
 # right prompt: return code, virtualenv and context (user@host)
-RPS1="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+RPS1="$my_gray%n@%m!%!~%@%{$reset_color%}"
 if (( $+functions[virtualenv_prompt_info] )); then
-  RPS1+='$(virtualenv_prompt_info)'
+   RPS1+='$(virtualenv_prompt_info)'
 fi
-RPS1+=" ${FG[237]}%n@%m%{$reset_color%}"
+RPS1+=" ${FG[237]}%{$reset_color%}"
 
 # git settings
 ZSH_THEME_GIT_PROMPT_PREFIX=" ${FG[075]}(${FG[078]}"
