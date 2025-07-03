@@ -13,3 +13,6 @@ log/
 
 #themes
 themes/
+
+# zcompile cached files
+*.zwc
