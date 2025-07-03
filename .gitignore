@@ -13,6 +13,9 @@ log/
 
 #themes
 themes/
+<<<<<<< HEAD
 
 # zcompile cached files
 *.zwc
+=======
+>>>>>>> e551778920fc5bfb00707ffc62c0a12fcf0d8fa7
